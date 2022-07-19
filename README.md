@@ -1,5 +1,18 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
+![sdgs](https://user-images.githubusercontent.com/89338796/179854639-a3b5bd7f-d827-4836-ab46-8fe435396d1c.JPG)
+
+User:
+http://127.0.0.1:8000/login
+Email: user@gmail.com
+Pass : udemy12345
+
+Admin:
+http://127.0.0.1:8000/admin/login
+Email: admin@gmail.com
+Pass : udemy12345
+
+
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
