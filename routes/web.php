@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\MainUserController;
+use App\Http\Controllers\MainAdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -44,3 +45,10 @@ Route::get('/user/profile/edit', [MainUserController::class, 'UserProfileEdit'])
 Route::post('/user/profile/store', [MainUserController::class, 'UserProfileStore'])->name('profile.store');
 Route::get('/user/password/view', [MainUserController::class, 'UserPasswordView'])->name('user.password.view');
 Route::post('/user/password/update', [MainUserController::class, 'UserPasswordUpdate'])->name('password.update');
+
+// Admin All Routes
+Route::get('/admin/profile', [MainAdminController::class, 'AdminProfile'])->name('admin.profile');
+Route::get('/admin/profile/edit', [MainAdminController::class, 'AdminProfileEdit'])->name('admin.profile.edit');
+Route::post('/admin/profile/store', [MainAdminController::class, 'AdminProfileStore'])->name('admin.profile.store');
+Route::get('/admin/change/password', [MainAdminController::class, 'AdminChangePassword'])->name('admin.change.password');
+Route::post('/admin/change/update', [MainAdminController::class, 'AdminChangePasswordUpdate'])->name('admin.password.update');
